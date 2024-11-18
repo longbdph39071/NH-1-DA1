@@ -25,9 +25,3 @@ $arrNeedAuth = [
 ];
 
 middleware_auth_check($act, $arrNeedAuth);
-
-
-  
-
-
-
