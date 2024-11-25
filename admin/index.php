@@ -29,7 +29,6 @@ match ($act) {
     'category-detail' => categoryShowOne($_GET['id']),
     'category-create' => categoryCreate(),
     'category-update' => categoryUpdate($_GET['id']),
-<<<<<<< HEAD
     'category-delete' => categoryDelete($_GET['id']),
 
     // CRUD Sản phẩm
@@ -70,7 +69,4 @@ match ($act) {
 
 };
 
-require '../commons/disconect.php';
-=======
-    'category-delete' => categoryDelete($_GET['id']),
->>>>>>> c7f75a4c68721c6558e1d0547ea727fe5e9bcdc1
+
